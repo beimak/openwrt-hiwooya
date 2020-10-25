@@ -63,7 +63,10 @@ HIWOOYA1664:16MB FLASH + 64MB RAM
 
 HIWOOYA3264:32MB FLASH + 64MB RAM
 
-# 5.make
+# 5a.make download 预下载编译所需的软件包
+$ make download -j2 V=s
+
+# 5b.make
 $ make -j4
 
 # 6.image
